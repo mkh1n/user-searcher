@@ -1,0 +1,52 @@
+
+html, body{
+  margin:0;
+    padding:0;
+    height:100%; /* needed for container min-height */
+}
+.mainWrapper{
+  height:100%; /* needed for container min-height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#usersContainer{
+  opacity: 0;
+  transition: .1s ease-in-out;
+}
+.mainContainer{
+  margin-bottom: 40px;
+}
+.searchHolder{
+  width: 100%;
+}
+.cardHolder{
+  transition: 0.2s;
+  cursor: pointer;
+}
+.cardHolder:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+h5.card-title{
+  margin: 0;
+}
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+#prevButton, #nextButton{
+  background-image: url('./arrow.svg');
+  padding: 20px;
+  border-radius: 100%;
+  background-position: 48% 55%;;
+  background-repeat: no-repeat;
+  rotate: 90deg;
+}
+#nextButton{
+  rotate: -90deg;
+
+}
