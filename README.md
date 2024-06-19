@@ -1,4 +1,4 @@
-# user-searcher
+# User Searcher
 
 Overview
 --------
@@ -46,6 +46,10 @@ Limitations
 
 * The application currently only supports searching by user name. In the future, it may be expanded to support searching by other user attributes.
 * The application assumes that there may be more than one million users in a single bot.
+
+## About
+
+This is a test task completed according to [this technical task](https://paper.dropbox.com/doc/Frontend-Engineer-GFOYvLYpCLWUJe59Ydfmw).
 
 ![alt text](image.png)
 ![alt text](image-1.png)
