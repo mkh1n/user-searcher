@@ -1,4 +1,4 @@
-# bot-searcher-layout
+# user-searcher
 
 Overview
 --------
