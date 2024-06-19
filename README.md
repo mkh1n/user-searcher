@@ -24,7 +24,7 @@ Technical Details
 Usage
 -----
 
-* Open the <a href='https://mkh1n/github.io/user-searcher'>SPA</a> in a web browser.
+* Open the <a href='https://mkh1n.github.io/user-searcher'>SPA</a> in a web browser.
 * Enter a search query in the search input field.
 * The list of users will automatically update to show only the matching users.
 
